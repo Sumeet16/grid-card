@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 81%);
+    position: relative;
+}
+
+.container{
+    width: 80%;
+    position: absolute;
+    top: 85px;
+    left: 160px;
+    display: grid;
+    grid-template-rows: repeat(2, 280px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+/* Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%) */
+
+.first{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    grid-column: 1/3;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0.1);    
+}
+
+.second{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    grid-column: 3/4;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0.1);
+}
+
+.third{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    grid-row: 1/3;
+    grid-column: 4/5;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0.1);
+}
+
+.fourth{
+    width: 260px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 320px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0.1);
+}
+
+.fifth{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0.1);
+}
+
+.logo{
+    position: absolute;
+    left: 450px;
+}
+
+.person{
+    border-radius: 50%;
+    margin: 30px 0 0 30px;
+    max-width: 40px;
+    border: 2px solid plum;
+}
+
+.firsts{
+    font-size: 12px;
+    color: plum;
+}
+
+.su{
+    position: absolute;
+    top: 33px;
+    left: 110px;
+}
+
+.fu{
+    position: absolute;
+    top: 53px;
+    left: 110px;
+    font-weight: 100;
+}
+
+.second-2{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 900;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.third-3{
+    color: plum;
+    font-size: 11px;
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.mu{
+    position: absolute;
+    top: 343px;
+    left: 100px;
+    color: black;
+}
+
+.nu{
+    position: absolute;
+    top: 359px;
+    left: 100px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.sec{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.c{
+    color: black;
+}
+
+.thr{
+    color: plum;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: lightgray;
+}
+
+.z{
+    margin-top: 20px;
+}
+
+.a{
+    color: #fff;
+}
+
+.au{
+    position: absolute;
+    top: 33px;
+    left: 750px;
+    color:#fff;
+}
+
+.bu{
+    position: absolute;
+    top: 53px;
+    left: 750px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.cu{
+    position: absolute;
+    top: 33px;
+    left: 1060px;
+    color:black;
+}
+
+.du{
+    position: absolute;
+    top: 53px;
+    left: 1060px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.b{
+    margin-top: 15px;
+}
+
+.xu{
+    position: absolute;
+    top: 343px;
+    left: 460px;
+    color: #fff;
+}
+
+.gu{
+    position: absolute;
+    top: 359px;
+    left: 460px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.d{
+    font-size: 17px;
+}
+
+@media (max-width: 420px){
+    section {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .container{
+        width: 98%;
+        top: 35px;
+        left: 30px;
+        grid-template-rows: 280px;
+        grid-template-columns: 85%;
+    }
+    /* Moderate violet: hsl(263, 55%, 52%)
+    Very dark grayish blue: hsl(217, 19%, 35%)
+    Very dark blackish blue: hsl(219, 29%, 14%)
+    White: hsl(0, 0%, 100%) */
+    
+    .first{
+        grid-row: 1/3;
+        grid-column: 1/2;
+        height: 450px;
+    }
+    
+    .second{
+        grid-row: 3/4;
+        grid-column: 1/2;
+        height: 300px;
+    }
+    
+    .third{
+        grid-row: 6/7;
+        grid-column: 1/2;
+        width: 100%;
+        height: 105%;
+    }
+    
+    .fourth{
+        grid-row: 4/5;
+        grid-column: 1/2;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .fifth{
+        grid-row: 5/6;
+        grid-column: 1/2;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .logo{
+        position: absolute;
+        left: 230px;
+    }
+            
+    .su{
+        left: 100px;
+    }
+    
+    .fu{
+        left: 100px;
+    }
+    
+    .second-2{
+        max-width: 80%;
+        font-size: 16px;
+        left: 20px;
+        top: 75px;
+    
+    }
+    
+    .third-3{
+        font-size: 11px;
+        margin-top: 170px;
+        margin-left: 20px;
+    }
+    
+    .mu{
+        top: 843px;
+    }
+    
+    .nu{
+        top: 863px;
+    }
+       
+    .c{
+        font-size: 18px;
+        color: black;
+    }
+        
+    .z{
+        margin-top: 20px;
+    }
+    
+    .a{
+        color: #fff;
+    }
+    
+    .au{
+        top: 512px;
+        left: 105px;
+    }
+    
+    .bu{
+        top: 532px;
+        left: 105px;
+    }
+    
+    .cu{
+        top: 1605px;
+        left: 110px;
+    }
+    
+    .du{
+        top: 1625px;
+        left: 110px;
+    }
+    
+    .b{
+        margin-top: 15px;
+        max-width: 80%;
+    }
+    
+    .xu{
+        top: 1175px;
+        left: 110px;
+    }
+    
+    .gu{
+        top: 1195px;
+        left: 110px;
+    }
+    
+    .d{
+        max-width: 80%;
+        font-size: 16px;
+    }
+}
